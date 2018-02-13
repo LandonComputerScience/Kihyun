@@ -62,5 +62,7 @@ public class Sieve
             System.out.print(2*k + 1 + " ");
             count++;
         }
+    System.out.println();
+    System.out.println(count + " odd primes under " + n);
   }  
 }
