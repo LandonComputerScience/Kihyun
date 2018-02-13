@@ -16,7 +16,7 @@ public class Sieve
           {
               int p = 2 * k + 1;
               for (int i = p * p; i < n; i += 2 p)
-              isPrime[i] = false;
+                isPrime[i] = false;
           }
       }
   }
